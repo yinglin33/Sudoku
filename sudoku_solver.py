@@ -1,3 +1,4 @@
+import sys
 import numpy as np
 from sudoku_list_generator import output_list
 
@@ -52,3 +53,11 @@ def solve(sudoku_board):
                 return False
 
 if __name__ == "__main__":
+    if len(sys.argv) == 2:
+        board = np.array(output_list(sys.argv[1]))
+        print(board)
+        solve(board)
+        print(board)
+    else:
+        print("Please enter the correct amount of arguments.")
+        sys.exit()
