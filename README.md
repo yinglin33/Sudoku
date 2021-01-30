@@ -1,7 +1,7 @@
 # Python Sudoku Solver/Generator
 
 ## Functionality:
-###What It Does:
+### What It Does:
 Solves a given Sudoku board layout or generates a unique Sudoku board layout.
 
 ### How It Works:
@@ -13,7 +13,7 @@ Numpy (follow below link's instructions to install numpy)
 https://numpy.org/install/
 
 ## How To Use It:
-###Solver:
+### Solver:
 For a sudoku puzzle like the following...
 
 <img src='sudoku_image.png' title='example image' align ="center" width='750' alt='example image' >
@@ -23,7 +23,7 @@ Run the following line of code (the argument represents the board row by row, wi
 python3 sudoku_solver.py 530070000600195000098000060800060003400803001700020006060000280000419005000080079
 ```
 
-###Generator:
+### Generator:
 ```
 python3 sudoku_generator.py
 ```
