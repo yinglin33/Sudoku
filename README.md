@@ -5,7 +5,7 @@ Solves a given Sudoku board layout or generates a unique Sudoku board layout.
 
 ### How It Works:
 - Solver: uses a backtracking algorithm to go through, fill in numbers, and check to make sure board is valid
-- Generator: uses the solver to generate a sudoku board that is  
+- Generator: uses the solver to generate a sudoku board that is unique (only one solution)
 
 ### Necessary Packages:
 Numpy (follow below link's instructions to install numpy)
