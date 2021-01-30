@@ -36,5 +36,6 @@ python3 sudoku_generator.py
     - https://www.sudokuwiki.org/sudoku_creation_and_grading.pdf
 
 ## Citation
-*"Sudoku Puzzle" by Tim Stellmach is licensed under [CC0 1.0 Universal Public Domain Dedication][1]*
+"Sudoku Puzzle" by Tim Stellmach is licensed under [CC0 1.0 Universal Public Domain Dedication][1]
+
 [1]: <https://creativecommons.org/publicdomain/zero/1.0/deed.en> "CC License"
