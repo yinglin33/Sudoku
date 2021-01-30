@@ -17,7 +17,6 @@ https://numpy.org/install/
 For a sudoku puzzle like the following...
 
 <img src='sudoku_image.png' title='example image' align ="center" width='750' alt='example image' >
-"Sudoku Puzzle" by Tim Stellmach is licensed under CC0 1.0 Universal Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 
 Run the following line of code (the argument represents the board row by row, with 0's representing blanks)
 ```
@@ -35,3 +34,6 @@ python3 sudoku_generator.py
 - creating more efficient algorithm to generate a game with 27 blank spots
 - changing algorithm to follow the rules/ideas given by the following paper
     - https://www.sudokuwiki.org/sudoku_creation_and_grading.pdf
+
+## Citation
+*"Sudoku Puzzle" by Tim Stellmach is licensed under CC0 1.0 Universal Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.en)*
