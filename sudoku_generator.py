@@ -1,7 +1,6 @@
 import numpy as np
 from sudoku_solver import solve, is_possible
 from random import randint
-from sudoku_list_generator import output_list
 import time
 
 def num_solutions(sudoku_board):
@@ -64,11 +63,4 @@ def create_board(filled_board):
     return filled_board
 
 if __name__ == "__main__":
-    start_time = time.time()
-    x = 0
-    while x < 10:
-        print(create_board(create_filled_board()))
-        x += 1
-        print("\n" + str(x) + "\n")
-    #print(num_solutions(np.array(output_list("100050079400029300089000000014030000600000040095084002800000560300700900070060420"))))
-    print("My program took and average of", (time.time() - start_time) / 10, "to run")
+    print(create_board(create_filled_board()))
