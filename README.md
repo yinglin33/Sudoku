@@ -11,6 +11,7 @@ Solves a given Sudoku board layout or generates a unique Sudoku board layout.
 Numpy (follow below link's instructions to install numpy)
 https://numpy.org/install/
 
+
 ## How To Use It:
 Solver:
 For a sudoku puzzle like the following...
