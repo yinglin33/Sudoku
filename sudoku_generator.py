@@ -63,8 +63,8 @@ def create_board(filled_board):
                 x += 1
             else:
                 filled_board[i][j] = placeholder
-        print(x)
     return filled_board
 
 if __name__ == "__main__":
+    print("creating board...\nthis may take a few seconds...")
     print(create_board(create_filled_board()))
