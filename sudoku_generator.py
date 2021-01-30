@@ -34,9 +34,13 @@ def create_filled_board():
     return board
 
 def create_board(filled_board):
+    """
+    Creates a sudoku board so that only 30 empty spots are generated
+    and only one solution is possible.
+    """
     x = 0
-    while x < 51:
-        if x < 20:
+    while x < 51: #stops when 51 spots out of 81 are filled
+        if x < 20: #adds numbers two at a time for first 20 numbers
             i, j = randint(0, 8), randint(0, 8)
             while filled_board[i][j] == filled_board[j][i] == 0:
                 i, j = randint(0, 8), randint(0, 8)
