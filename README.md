@@ -11,7 +11,7 @@ Solves a given Sudoku board layout or generates a unique Sudoku board layout.
 Numpy (follow below link's instructions to install numpy)
 https://numpy.org/install/
 
-
+<br />
 ## How To Use It:
 Solver:
 For a sudoku puzzle like the following...
@@ -22,7 +22,7 @@ Run the following line of code (the argument represents the board row by row, wi
 ```
 python3 sudoku_solver.py 530070000600195000098000060800060003400803001700020006060000280000419005000080079
 ```
-
+<br />
 Generator:
 ```
 python3 sudoku_generator.py
